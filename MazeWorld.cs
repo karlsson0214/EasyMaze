@@ -7,9 +7,9 @@ using EasyMonoGame;
 
 namespace EasyStart
 {
-    internal class MyWorld : World
+    internal class MazeWorld : World
     {
-        public MyWorld() : base(600, 800)
+        public MazeWorld() : base(600, 800)
         {
             // Tile background with the file "bluerock" in the Content folder.
             BackgroundTileName = "bluerock";
